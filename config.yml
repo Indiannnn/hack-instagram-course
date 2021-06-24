@@ -1,0 +1,16 @@
+title: Hack instagram
+description: 'https://instagram.com/rosh.ni8883?utm_medium=copy_link'
+template:
+  repo: hack-instagram-template
+  name: hack-instagram
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
